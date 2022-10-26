@@ -33,6 +33,16 @@ form{
     row-gap: 2rem;
 }
 
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.error{
+    color:#ff0000;
+}
+
 .text-input{
     border: 1px solid #000;
     border-radius: 10px;
